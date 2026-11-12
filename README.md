@@ -83,7 +83,7 @@ Program berhasil menampilkan judul halaman, pesan bahwa PHP berhasil dijalankan,
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 3: Hasil Latihan 1]
+![latihan1](latihan1.png)
 
 ### 4.2 Latihan 2. Variabel, Operator, dan Percabangan
 
@@ -109,7 +109,7 @@ Program berhasil menghitung nilai akhir mahasiswa berdasarkan bobot yang ditentu
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 4: Hasil Latihan 2]
+![latihan2](latihan2.png)
 
 ### 4.3 Latihan 3. Array dan Perulangan
 
@@ -133,7 +133,7 @@ Program berhasil menampilkan seluruh nama mahasiswa yang tersimpan dalam array m
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 5: Hasil Latihan 3]
+![latihan3](latihan3.png)
 
 ### 4.4 Latihan 4. Fungsi PHP
 
@@ -159,7 +159,7 @@ Program berhasil menghitung harga setelah diskon dan luas persegi panjang menggu
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 6: Hasil Latihan 4]
+![laihan4](latihan4.png)
 
 ### 4.5 Latihan 5. Pengolahan Form dengan GET
 
@@ -188,7 +188,7 @@ Program berhasil menerima dan menampilkan data menggunakan metode GET. Kata yang
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 7: Hasil Latihan 5]
+![latihan5](latihan5.png)
 
 ### 4.6 Latihan 6. Pengolahan Form dengan POST
 
@@ -217,7 +217,7 @@ Program berhasil menerima data menggunakan metode POST. Program juga dapat memer
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 8: Hasil Latihan 6]
+![latihan6](latihan6.png) ![latihan6](latihan6.1.png)
 
 ### 4.7 Latihan 7. Menghitung Subtotal Barang
 
@@ -250,7 +250,7 @@ Program berhasil menghitung subtotal berdasarkan harga dan jumlah barang serta m
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 9: Hasil Latihan 7]
+![latihan7](latihan7.png) ![latihan7](latihan7.1.png)
 
 ---
 
@@ -319,11 +319,7 @@ Hasil yang diharapkan: Program menampilkan pesan bahwa format email tidak valid.
 
 **Dokumentasi Mini Project:**
 
-[Sisipkan Screenshot 10: Form Data Mahasiswa]
-
-[Sisipkan Screenshot 11: Hasil Input Valid]
-
-[Sisipkan Screenshot 12: Hasil Input Tidak Valid]
+![miniprojek](miniprojek1.png) ![miniprojek](miniprojek2.png) ![miniprojek](miniprojek3.png)
 
 ---
 
@@ -352,7 +348,7 @@ Dengan nilai 80, 85, dan 90, program menghasilkan rata-rata sebesar 85,00.
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 13: Hasil Eksperimen 1]
+![eksperimen](eksperimen1.png) 
 
 ### 6.2 Eksperimen 2. Pencarian Nama Mahasiswa Menggunakan GET
 
@@ -381,7 +377,7 @@ Program berhasil mencari nama mahasiswa berdasarkan kata kunci yang dimasukkan m
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 14: Hasil Eksperimen 2]
+![eksperimen](eksperimen2.png)
 
 ### 6.3 Eksperimen 3. Membuat Fungsi Format Rupiah
 
@@ -406,7 +402,7 @@ Program berhasil mengubah angka menjadi format mata uang Rupiah. Contohnya, 1500
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 15: Hasil Eksperimen 3]
+![eksperimen](eksperimen3.png)
 
 ### 6.4 Eksperimen 4. Validasi NIM
 
@@ -439,7 +435,7 @@ Program berhasil mengubah angka menjadi format mata uang Rupiah. Contohnya, 1500
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 16: Hasil Eksperimen 4]
+![eksperimen](eksperimen4.png)
 
 ### 6.5 Eksperimen 5. Tombol Reset dan Proses Server
 
@@ -467,7 +463,7 @@ Tombol Reset mengembalikan input ke nilai awal langsung di browser. Tombol Kirim
 
 **Dokumentasi:**
 
-[Sisipkan Screenshot 17: Hasil Eksperimen 5]
+![eksperimen](eksperimen5.png)
 
 ---
 
@@ -509,12 +505,104 @@ Melalui Praktikum 7, mahasiswa mempelajari dasar pemrograman server-side menggun
 
 Praktikum ini juga memberikan pengalaman dalam membuat aplikasi sederhana berupa form data mahasiswa. Dengan demikian, mahasiswa dapat memahami proses pengolahan data pada sisi server menggunakan PHP.
 
-## 9. DAFTAR PUSTAKA
+## 9. SOAL DAN JAWABAN EVALUASI
+
+### 1. Apa perbedaan pemrograman client-side dan server-side?
+
+**Jawaban:**
+
+Pemrograman client-side merupakan pemrosesan kode yang berjalan pada browser pengguna. Contohnya adalah HTML, CSS, dan JavaScript. Pemrograman server-side merupakan pemrosesan kode yang berjalan pada server. Contohnya adalah PHP. Server memproses permintaan pengguna, kemudian mengirimkan hasilnya ke browser.
+
+### 2. Mengapa PHP harus dijalankan melalui web server seperti Apache?
+
+**Jawaban:**
+
+PHP harus dijalankan melalui web server karena PHP merupakan bahasa pemrograman server-side. Apache menerima permintaan dari browser, meneruskan file PHP untuk diproses, kemudian mengirimkan hasil pemrosesan dalam bentuk halaman HTML kepada browser. Jika file PHP dibuka langsung dari penyimpanan komputer, kode PHP tidak akan diproses oleh server.
+
+### 3. Apa fungsi tanda `$` dalam PHP?
+
+**Jawaban:**
+
+Tanda `$` digunakan untuk mendefinisikan dan mengakses variabel dalam PHP. Setiap nama variabel PHP harus diawali dengan tanda `$`.
+
+Contoh:
+
+```php
+$nama = "Andi";
+$umur = 20;
+
+echo $nama;
+echo $umur;
+```
+
+Pada contoh tersebut, `$nama` menyimpan data teks dan `$umur` menyimpan data angka.
+
+### 4. Apa perbedaan metode GET dan POST dalam pengiriman data form?
+
+**Jawaban:**
+
+GET mengirimkan data melalui parameter URL sehingga data dapat terlihat pada alamat browser. GET biasanya digunakan untuk pencarian atau permintaan data.
+
+POST mengirimkan data melalui badan permintaan HTTP sehingga data tidak ditampilkan sebagai parameter URL. POST sering digunakan untuk mengirim data formulir, seperti nama, NIM, dan email.
+
+### 5. Mengapa validasi input harus dilakukan di sisi server?
+
+**Jawaban:**
+
+Validasi di sisi server diperlukan untuk memastikan data yang diterima sesuai dengan aturan program. Validasi ini tetap berjalan meskipun pengguna melewati atau menonaktifkan validasi pada browser. Dengan demikian, server dapat menolak data kosong, format yang salah, atau nilai yang tidak sesuai.
+
+Contoh validasi pada PHP:
+
+```php
+if ($nama == "") {
+    echo "Nama wajib diisi.";
+}
+```
+
+### 6. Apa fungsi `htmlspecialchars()` dalam PHP?
+
+**Jawaban:**
+
+Fungsi `htmlspecialchars()` digunakan untuk mengubah karakter khusus HTML menjadi bentuk entitas HTML. Fungsi ini membantu mencegah input pengguna ditafsirkan sebagai kode HTML atau skrip ketika ditampilkan pada halaman web.
+
+Contoh:
+
+```php
+$nama = "<script>alert('Halo')</script>";
+
+echo htmlspecialchars($nama, ENT_QUOTES, 'UTF-8');
+```
+
+Dengan fungsi tersebut, teks input ditampilkan sebagai teks biasa dan tidak dijalankan sebagai kode HTML.
+
+### 7. Mengapa fungsi atau function penting dalam pemrograman PHP?
+
+**Jawaban:**
+
+Fungsi penting karena membantu mengelompokkan kode berdasarkan tugas tertentu. Fungsi dapat digunakan kembali sehingga mengurangi penulisan kode yang berulang dan membuat program lebih terstruktur serta mudah dipelihara.
+
+Contoh:
+
+```php
+function hitungLuas($panjang, $lebar) {
+    return $panjang * $lebar;
+}
+
+echo hitungLuas(8, 4);
+```
+
+Hasil program adalah 32 karena fungsi menghitung luas persegi panjang dengan mengalikan panjang dan lebar.
+
+---
+
+## 10. DAFTAR PUSTAKA
 
 1. PHP Documentation. PHP Manual. https://www.php.net/manual/en/
 2. Apache Friends. XAMPP. https://www.apachefriends.org/
 
-## 10. STRUKTUR FOLDER
+---
+
+## 11. STRUKTUR FOLDER
 
 ```text
 Lab7Web_PHP/
@@ -534,13 +622,3 @@ Lab7Web_PHP/
 ├── eksperimen5.php
 └── README.md
 ```
-
-## 11. CATATAN PENGUMPULAN
-
-1. Pastikan seluruh file PHP tersimpan di folder `Lab7Web_PHP`.
-2. Pastikan setiap file dapat dijalankan melalui browser.
-3. Lengkapi identitas praktikan.
-4. Tambahkan screenshot asli hasil setiap latihan dan eksperimen.
-5. Pastikan screenshot memperlihatkan hasil program dengan jelas.
-6. Simpan file `README.md` di dalam folder praktikum.
-7. Periksa kembali seluruh isi folder sebelum dikumpulkan.
