@@ -54,7 +54,7 @@ Untuk menjalankan file tertentu, tambahkan nama file pada URL. Contoh:
 
 **Dokumentasi Persiapan Praktikum**
 
-![apache](ss/xampp.png)
+![apache](xampp.png)
 
 
 ---
