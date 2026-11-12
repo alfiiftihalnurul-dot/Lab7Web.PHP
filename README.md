@@ -319,7 +319,7 @@ Hasil yang diharapkan: Program menampilkan pesan bahwa format email tidak valid.
 
 **Dokumentasi Mini Project:**
 
-![miniprojek](miniprojek1.png) ![miniprojek](miniprojek2.png) ![miniprojek](miniprojek3.png)
+![miniprojek](mini_projek1.png) ![miniprojek](mini_projek2.png) ![miniprojek](mini_projek3.png)
 
 ---
 
